@@ -150,7 +150,7 @@ they need without having to store it themselves. Let's build some methods.
 
 ## Building on the Relationship
 
-If you take a look at our `customer` right now, they aren't capable of doing
+<!-- If you take a look at our `customer` right now, they aren't capable of doing
 much. Let's change that and give them the ability to create a `meal`. To do
 this, they'll need to take in an instance of a `waiter` and supply the `total`
 and `tip`, which we'll have defaulted to 0 here as well:
@@ -167,7 +167,7 @@ As you can see, we don't need to take `customer` in as an argument, because
 we're passing in `self` as a reference to the current instance of customer. This
 method will allow us to create new meals as a `customer`, and automatically
 associate each new `meal` with the `customer` that created it. We can do the
-same thing for the `Waiter` class:
+same thing for the `Waiter` class: -->
 
 ```ruby
 # ./lib/waiter.rb
